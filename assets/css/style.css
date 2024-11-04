@@ -1,0 +1,89 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+strong {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ED85B4
+}
+
+#hero-carousel {
+  max-height: 600px;
+  overflow: hidden;
+}
+
+#hero-carousel .carousel-item img {
+  object-fit: cover;
+  object-position: top;
+  height: 100%;
+  max-height: 600px;
+  width: 100%;
+}
+
+.carousel-caption {
+  background-color: rgba(68, 68, 68, 0.8);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+}
+
+.color-lilia-secondary {
+  color: #ED85B4;
+}
+
+.bg-lilia-secondary {
+  background-color: #ED85B4;
+}
+
+.bg-lilia-trans {
+  background-color: rgba(237, 133, 180, 0.7);
+}
+
+.btn-lilia-outline-secondary {
+  border-color: #ED85B4;
+}
+
+.border-lilia-secondary {
+  border: 2px solid #ED85B4 !important;
+}
+
+.btn-lilia-outline-secondary {
+  border: 2px solid #ED85B4;
+  color: #ED85B4;
+  background-color: transparent;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.btn-lilia-outline-secondary:hover {
+  background-color: #ED85B4; 
+  color: white; 
+}
+
+.btn-lilia-secondary {
+  background-color: #ED85B4;
+  color: #fff;
+}
+.btn-lilia-secondary:hover {
+  background-color: #fff;
+  border: 1px solid #ED85B4;
+  color: #ED85B4;
+}
